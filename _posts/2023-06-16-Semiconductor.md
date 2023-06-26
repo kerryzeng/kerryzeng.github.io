@@ -3,10 +3,10 @@ title: Semiconductor Basic Knowledge
 author: yangyang
 date: 2023-06-16 00:00:00 +0900
 categories: [Semiconductor]
+img_path: /images/semi/
 ---
-
+***This article is intended for non-commercial research and private study.
 ## Introduction
-
 A semiconductor is a substance that possesses both the characteristics of a conductor, allowing electricity to flow, and an insulator, which restricts the flow of electricity. Among the devices that utilize semiconductors, those involved in controlling and converting electrical power, such as power supplies, are referred to as power semiconductors.
 
 ### Power Semiconductor
@@ -15,10 +15,10 @@ A power semiconductor is a type of semiconductor device specifically designed to
 **Primary applications of power semiconductor**
 
 Power semiconductors are installed in all electronic devices with power circuits. They are utilized in our daily lives in devices such as smartphones, computers, televisions, air conditioners, and refrigerators. In the high-power field, they are widely used for power control in electric vehicles, trains, 5G base stations, industrial equipment, solar power generation, and other applications.
-![img-description](/images/semi/primaryapp.png)
+![img-description](primaryapp.png)
 
 **Four functions of power semiconductor circuits**
-![img-description](/images/semi/ACDC.png){: width="700" height="600" }
+![img-description](ACDC.png){: width="700" height="600" }
 
 **Some common types of power semiconductor and their operation**
 1. Diode: A diode is two-terminal devices that allow current to flow in one direction and block it in the reverse direction. They are widely used in rectification circuits to convert alternating current (AC) into direct current (DC).
@@ -27,7 +27,7 @@ Power semiconductors are installed in all electronic devices with power circuits
 4. IGBT: An insulated-gate bipolar transistor (IGBT) is a type of power transistor that combines the high-speed switching capability of a transistor with the low on-resistance of a power MOSFET. They are commonly used in applications requiring high voltage and high current switching, such as in motor drives and power converters.
 5. Thyristor: A thyristor are four-layer, three-terminal semiconductor devices that can control large amounts of electrical power. They are commonly used in applications where the power needs to be controlled, such as in AC voltage regulators and motor speed control.
 
-![img-description](/images/semi/semitypes.png){: width="600" height="400" }
+![img-description](semitypes.png){: width="600" height="400" }
 
 ### DRAM
 
@@ -44,20 +44,20 @@ However, DRAM is volatile, which means it loses all the stored data when the pow
 DRAM is much faster than other types of storage like hard drives, which makes it ideal for tasks that require quick access to data, such as running programs or loading files. 
 
 
-![img-description](/images/semi/DRAMoperation.png){: width="700" height="400" }
+![img-description](DRAMoperation.png){: width="700" height="400" }
 _DRAM operation_
-![img-description](/images/semi/DRAMintro.jpg){: width="700" height="400" }
+![img-description](DRAMintro.jpg){: width="700" height="400" }
 _DRAM memory cell operation_
 
 ## Basic Characteristics of Power Semiconductor 
 
 **ON Resistance:** The resistance value between the Drain and Source of a MOSFET during operation (ON) is called the ON Resistance (RDS(ON)). The smaller this value is, the lower the (power) loss.
 
-![img-description](/images/semi/onresistance.jpg){: width="100" height="100" }
+![img-description](onresistance.jpg){: width="300" height="100" }
 
 In this context, ρ represents resistivity, q represents electronic charge, μ represents mobility, N represents impurity concentration, l represents length, and S represents area. From the euqation, if you want to reduce resistance, you can increase mobility,concentration, or make the current path shorter. Therefore, when discussing on-resistance, it is common to refer the on-resistance per unit area, RonA.
 
-![img-description](/images/semi/resistance.png)
-_Example--Resistance of trench gate power MOSFET_
+![img-description](resistance.png){: width="200" height="100" }
+_An Example of trench gate power MOSFET resistance_
 
 **To be continued**
