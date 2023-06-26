@@ -1,9 +1,8 @@
 ---
 title: Begin your Machine Learning journey with this step-by-step guide
 author: yangyang
-date: 2023-06-12 00:00:00 +0900
-categories: [Blogging, Machine learning]
-tags: [Machine learning]
+date: 2023-05-23 00:00:00 +0900
+categories: [Machine learning]
 img_path: /images/AI/
 ---
 
