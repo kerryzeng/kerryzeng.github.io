@@ -25,4 +25,4 @@ Hobbies: gym, movie, piano
 
 My favorite artist: <a href="https://ja.wikipedia.org/wiki/%E5%9D%82%E6%9C%AC%E9%BE%8D%E4%B8%80" target='_blank'>Ryuichi Sakamoto</a>
 
-![ME](/images/personal.jpg){: width="450" height="300" }
+![ME](/images/other/personal.jpg){: width="450" height="300" }
